@@ -20,6 +20,7 @@ public class TwoDimentionalArraySum {
             }
         }
         
+        
         int maxSum = -64; //Because the minimum it could be is -9*7 = -63
         int startCol = 0;
         
