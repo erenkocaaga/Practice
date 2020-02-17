@@ -1,0 +1,135 @@
+What is Testing?
+
+Testing is the process of checking the functionality of the application whether 
+it is working as per requirements.
+
+
+What is Unit Testing? 
+
+Unit testing is the testing of single entity (class or method). Unit testing is 
+very essential to every software company to give a quality product to their 
+customers.
+
+
+What is Manual Testing? 
+
+Executing the test cases manually without any tool support is known as manual 
+testing. 
+
+
+What is Automated Testing? 
+
+Taking tool support and executing test cases by using automation tool is known
+as automated testing. 
+
+
+What are the disadvantages of manual testing? 
+
+- Time consuming and tedious 
+- Huge investment in human resources 
+- Less reliable 
+- Non-programmable
+
+
+What are advantages of automated testing? 
+
+- Fast
+- Less investment in human resources 
+- More reliable 
+- Programmable 
+
+
+What is JUnit? 
+
+JUnit is regression testing framework used by developers to implement unit testing
+in Java and accelerate programming speed and increase the quality of code. 
+
+
+What are important features of JUnit? 
+
+- It is an open source framework 
+- Provides Annotation to identify the test methods. 
+- Provides Assertions for testing expected results. 
+- Provides Test runners for running tests. 
+- JUnit tests can be run automatically and they check their own results and 
+provide immediate feedback 
+- JUnit tests can be organized into test suites containing test cases and even
+other test suites. 
+- JUnit shows test progress in a bar that is green if test is going fine and it
+turns red when a test fails. 
+
+
+What is a Unit Test Case? 
+
+A Unit Test Case is a part of code which ensures that the another part of code 
+works as expected. To achieve those desired results quickly, test framework is 
+required. JUnit is perfect unit test framework for java programming language. 
+
+
+What are best practices to write a Unit Test Case? 
+
+A formal written unit test case is characterized by a known input an by an 
+expected output, which is worked out before the test is executed. The known 
+input should test a precondition and the expected output should test a 
+postcondition. 
+There must be at least two unit cases for each requirement: one positive test
+and one negative test. If a requirement has sub-requirements, each sub-requirement
+must have at least two test cases as positive and negative. 
+
+
+When are Unit Tests written in Development Cycle? 
+
+Tests are written before the code during development in order to help coders 
+write the best code. 
+
+
+Why not just use System.out.println() for testing? 
+
+Debugging the code using system.out.println() will lead to manual scanning of the 
+whole output every time the program is run to ensure the code is doing expected 
+operations. Moreover, in the long run, it takes lesser time to code JUnit methods
+and test them on class files. 
+
+
+Why does JUnit only report the first failure in a single test? 
+
+Reporting multiple failures in a single test is generally a sign that the test 
+does too much and it is too big a unit test. JUnit is designed to work best with 
+a number of small tests. It executes each test within a seperate instance of the 
+test class. It reports failure on each test. 
+
+
+What are the core features of JUnit? 
+
+-Fixtures
+-Test suites
+-Test runners
+-JUnit classes
+
+
+What is a fixture? 
+
+Fixture is a fixed state of a set of objects used as a baseline for running tests.
+The purpose of a test fixture is to ensure that there is a well known and fixed 
+environment in which tests are run so that results are repeatable.
+
+
+What is a test suite? 
+
+Test suite means bundle a few unit test cases and run it together. In JUnit, both
+@RunWith and @Suite annotation are used to run the suite test. 
+
+
+What is a test runner? 
+
+Test runner is used for executing the test cases. 
+
+
+What are JUnit classes? List some of them. 
+
+- Assert: It contains a set of assert methods. 
+- TestCase: It contains a test case defines the fixture to run multiple tests. 
+- TestResults: I contains methods to collect the results of executing a test case. 
+- TestSuite: It is a Composite of Tests. 
+
+
